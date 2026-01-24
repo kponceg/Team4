@@ -15,9 +15,9 @@ Minimum Goal:
 
 # Evaluation
 
-__Quantitative Evaluation:__ We will evaluate policies on a suite of scenarios, fixed maps and random seeds, using the main metric, survival time, which counts the timesteps until failure. A second metric is the congestion rate, which is the fraction of timesteps any station queue exceeds a threshold. The last two metrics that impact the first two are the average passenger waiting time per game, and the total passengers delivered per game. For baselines, we will have random actions, a greedy heuristic that prioritizes to lessen the most congested station, and a simple heuristic that will focus on allocating stations. 
+__Quantitative Evaluation:__ We will evaluate policies on a suite of scenarios, fixed maps and random seeds, using the main metric, survival time, which counts the timesteps until failure. A second metric is the congestion rate, which is the fraction of timesteps any station queue exceeds a threshold. The last two metrics that impact the first two are the average passenger waiting time per game, and the total passengers delivered per game. For baselines, we will have random actions, a greedy heuristic that prioritizes to lessen the most congested station, and a simple heuristic that will focus on allocating stations. We expect for RL to improve waiting time and congestion, and our goal is to measure how design choices affect results.
 
-__Qualitative Analysis:__ To make sure our project is working, we will visually demonstrate the building of the stations and present the common types of failure and successful modes. This will provide the station queue trajectories for each method to verify that improvements correspond to behaviors rather than outputs.
+__Qualitative Analysis:__ To make sure our project is working, we will visually demonstrate the building of the stations and present the common types of failure and successful modes. This will provide the station queue trajectories for each method to verify that improvements correspond to behaviors rather than outputs. 
 
 # Tools
 
