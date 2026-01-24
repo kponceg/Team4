@@ -21,5 +21,5 @@ __Qualitative Analysis:__ To make sure our project is working, we will visually 
 
 # Tools
 
-We will be using an open source Mini Metro Python simulation repositary. 
+We will be using an open source Mini Metro Python simulation repository. 
 This will work as a base environment framework, and allow us to set up a metro network simulation while we focus on reinforcement learning. We will also be using ChatGPT as an assistive tool to help us analyze and identify features in the open source code for a better understanding, and for us to be able to modify it for our project. 
